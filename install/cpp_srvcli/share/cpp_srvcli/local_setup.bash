@@ -1,0 +1,1 @@
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_srvcli/ament_cmake_environment_hooks/local_setup.bash
