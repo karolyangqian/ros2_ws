@@ -1,5 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
-#include "my_package/srv/add_two_ints.hpp"  // Include the generated header
+#include "package1/srv/add_two_ints.hpp"  // Include the generated header
 
 using AddTwoInts = my_package::srv::AddTwoInts;  // Use the correct namespace
 

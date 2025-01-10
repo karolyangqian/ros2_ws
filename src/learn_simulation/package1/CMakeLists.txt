@@ -24,11 +24,11 @@ ament_target_dependencies(talker rclcpp std_msgs)
 add_executable(listener src/listener.cpp)
 ament_target_dependencies(listener rclcpp std_msgs)
 
-add_executable(server src/server.cpp)
-ament_target_dependencies(server rclcpp my_package)
+# add_executable(server src/server.cpp)
+# ament_target_dependencies(server rclcpp package1)
 
 # add_executable(client src/client.cpp)
-# ament_target_dependencies(client rclcpp my_package)
+# ament_target_dependencies(client rclcpp package1)
 
 target_include_directories(my_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -39,7 +39,7 @@ install(TARGETS
   my_node
   talker
   listener
-  server
+  # server
   # client
   DESTINATION lib/${PROJECT_NAME})
 
