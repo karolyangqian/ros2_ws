@@ -1,0 +1,51 @@
+[0.011s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j22 -l22
+[0.030s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.120s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.133s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.137s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.176s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.214s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.217s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.239s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.249s] -- Looking for pthread.h
+[0.318s] -- Looking for pthread.h - found
+[0.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.387s] -- Found Threads: TRUE  
+[0.419s] -- Found tutorial_interfaces: 0.0.0 (/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.549s] Error parsing '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/package.xml':
+[0.574s] Traceback (most recent call last):
+[0.575s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.575s]     main()
+[0.575s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.575s]     raise e
+[0.575s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.575s]     package = parse_package_string(
+[0.575s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.575s]     pkg.validate(warnings=warnings)
+[0.575s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.575s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.575s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/package.xml':
+[0.575s] The package "tutorial_interfaces" must not "build_depend" on a package with the same name as this package
+[0.575s] The package "tutorial_interfaces" must not "build_export_depend" on a package with the same name as this package
+[0.575s] The package "tutorial_interfaces" must not "exec_depend" on a package with the same name as this package
+[0.583s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.583s]   execute_process(/usr/bin/python3
+[0.583s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.583s]   /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/package.xml
+[0.583s]   /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[0.583s]   returned error code 1
+[0.583s] Call Stack (most recent call first):
+[0.583s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.583s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.584s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[0.584s] 
+[0.584s] [0m
+[0.584s] -- Configuring incomplete, errors occurred!
+[0.584s] See also "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.588s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.591s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j22 -l22

@@ -1,0 +1,270 @@
+[0.028s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/package1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/package1
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.345s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.492s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.582s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.630s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.636s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.645s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.745s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.747s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.770s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.779s] -- Looking for pthread.h
+[0.851s] -- Looking for pthread.h - found
+[0.851s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.920s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.920s] -- Found Threads: TRUE  
+[0.961s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.167s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.506s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.509s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.531s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.531s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.531s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.531s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.550s] -- Found PythonExtra: .so  
+[1.587s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.608s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.608s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/package1/include>
+[1.608s] -- Configured cppcheck exclude dirs and/or files: 
+[1.608s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.608s] -- Added test 'lint_cmake' to check CMake code style
+[1.609s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.610s] -- Added test 'uncrustify' to check C / C++ code style
+[1.610s] -- Configured uncrustify additional arguments: 
+[1.610s] -- Added test 'xmllint' to check XML markup files
+[1.612s] -- Configuring done
+[1.647s] -- Generating done
+[1.660s] -- Build files have been written to: /home/karol/ITB/URO/KRAI/ros2_ws/build/package1
+[1.676s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/package1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/package1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/package1
+[1.678s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/package1 -- -j22 -l22
+[1.726s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.732s] [  5%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.734s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[1.737s] [ 10%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.737s] [ 13%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[1.741s] [ 13%] Built target ament_cmake_python_copy_package1
+[1.763s] [ 16%] [32m[1mLinking CXX executable my_node[0m
+[1.817s] [ 16%] Built target my_node
+[2.015s] [ 18%] [32mBuilding C object CMakeFiles/package1__rosidl_generator_c.dir/rosidl_generator_c/package1/srv/detail/add_two_ints__functions.c.o[0m
+[2.082s] [ 18%] Built target package1__cpp
+[2.088s] running egg_info
+[2.089s] creating package1.egg-info
+[2.089s] writing package1.egg-info/PKG-INFO
+[2.090s] writing dependency_links to package1.egg-info/dependency_links.txt
+[2.090s] writing top-level names to package1.egg-info/top_level.txt
+[2.090s] writing manifest file 'package1.egg-info/SOURCES.txt'
+[2.093s] reading manifest file 'package1.egg-info/SOURCES.txt'
+[2.095s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.095s] writing manifest file 'package1.egg-info/SOURCES.txt'
+[2.102s] [ 24%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.107s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.112s] [ 29%] [32m[1mLinking C shared library libpackage1__rosidl_generator_c.so[0m
+[2.156s] [ 29%] Built target ament_cmake_python_build_package1_egg
+[2.162s] [ 29%] Built target package1__rosidl_generator_c
+[2.173s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.175s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.184s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.475s] [ 40%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package1/srv/add_two_ints__type_support.cpp.o[0m
+[2.508s] [ 43%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_c.dir/rosidl_typesupport_c/package1/srv/add_two_ints__type_support.cpp.o[0m
+[2.523s] [ 45%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package1/srv/detail/add_two_ints__type_support.cpp.o[0m
+[2.564s] [ 48%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_c.so[0m
+[2.589s] [ 51%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package1/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[2.598s] [ 54%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package1/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[2.631s] [ 56%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package1/srv/detail/add_two_ints__type_support.c.o[0m
+[2.648s] [ 56%] Built target package1__rosidl_typesupport_c
+[2.670s] [ 59%] [32m[1mLinking C shared library libpackage1__rosidl_typesupport_introspection_c.so[0m
+[2.717s] [ 59%] Built target package1__rosidl_typesupport_introspection_c
+[2.894s] [ 62%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_cpp.so[0m
+[3.004s] [ 62%] Built target package1__rosidl_typesupport_cpp
+[3.037s] [ 64%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_fastrtps_c.so[0m
+[3.098s] [ 67%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_introspection_cpp.so[0m
+[3.170s] [ 70%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.198s] [ 70%] Built target package1__rosidl_typesupport_introspection_cpp
+[3.254s] [ 70%] Built target package1__rosidl_typesupport_fastrtps_c
+[3.341s] [ 70%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[3.474s] [ 70%] Built target package1
+[3.515s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.867s] [ 72%] Built target package1__py
+[3.894s] [ 75%] [32mBuilding C object CMakeFiles/package1__rosidl_generator_py.dir/rosidl_generator_py/package1/srv/_add_two_ints_s.c.o[0m
+[4.015s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/package1/libpackage1__rosidl_generator_py.so[0m
+[4.062s] [ 78%] Built target package1__rosidl_generator_py
+[4.090s] [ 86%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.090s] [ 86%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.091s] [ 86%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_c.c.o[0m
+[4.289s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.289s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.289s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.333s] [ 94%] Built target package1__rosidl_typesupport_fastrtps_c__pyext
+[4.333s] [ 94%] Built target package1__rosidl_typesupport_c__pyext
+[4.333s] [ 94%] Built target package1__rosidl_typesupport_introspection_c__pyext
+[6.625s] [ 97%] [32m[1mLinking CXX executable talker[0m
+[6.853s] [ 97%] Built target talker
+[8.857s] [100%] [32m[1mLinking CXX executable listener[0m
+[9.097s] [100%] Built target listener
+[9.110s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/package1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/package1 -- -j22 -l22
+[9.112s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/package1
+[9.119s] -- Install configuration: ""
+[9.119s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/ament_index/resource_index/rosidl_interfaces/package1
+[9.119s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1
+[9.119s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg
+[9.119s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg/rosidl_generator_c__visibility_control.h
+[9.119s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv
+[9.119s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/add_two_ints.h
+[9.120s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail
+[9.120s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__struct.h
+[9.120s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__functions.h
+[9.120s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__functions.c
+[9.120s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__type_support.h
+[9.120s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/environment/library_path.sh
+[9.120s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/environment/library_path.dsv
+[9.120s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_generator_c.so
+[9.120s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_generator_c.so" to ""
+[9.121s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1
+[9.121s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg
+[9.121s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.121s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv
+[9.121s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail
+[9.121s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[9.121s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_fastrtps_c.so
+[9.121s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_fastrtps_c.so" to ""
+[9.121s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1
+[9.121s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg
+[9.121s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.121s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv
+[9.121s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail
+[9.121s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__struct.hpp
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__builder.hpp
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__traits.hpp
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__type_support.hpp
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/add_two_ints.hpp
+[9.122s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1
+[9.122s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.122s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv
+[9.122s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/dds_fastrtps
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_fastrtps_cpp.so
+[9.122s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.122s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1
+[9.122s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg
+[9.122s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.123s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv
+[9.123s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail
+[9.123s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__type_support.c
+[9.123s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[9.123s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_introspection_c.so
+[9.123s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_introspection_c.so" to ""
+[9.123s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_c.so
+[9.123s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_c.so" to ""
+[9.123s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1
+[9.123s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv
+[9.123s] -- Up-to-date: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail
+[9.123s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[9.123s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/include/package1/package1/srv/detail/add_two_ints__type_support.cpp
+[9.123s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_introspection_cpp.so
+[9.123s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_introspection_cpp.so" to ""
+[9.123s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_cpp.so
+[9.124s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_typesupport_cpp.so" to ""
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/environment/pythonpath.sh
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/environment/pythonpath.dsv
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1-0.0.0-py3.10.egg-info
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1-0.0.0-py3.10.egg-info/PKG-INFO
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1-0.0.0-py3.10.egg-info/top_level.txt
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/_package1_s.ep.rosidl_typesupport_c.c
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/srv
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/srv/_add_two_ints_s.c
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/srv/__init__.py
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/srv/_add_two_ints.py
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/_package1_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/__init__.py
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/libpackage1__rosidl_generator_py.so
+[9.124s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/_package1_s.ep.rosidl_typesupport_introspection_c.c
+[9.157s] Listing '/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1'...
+[9.157s] Compiling '/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/__init__.py'...
+[9.157s] Listing '/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/srv'...
+[9.157s] Compiling '/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/srv/__init__.py'...
+[9.157s] Compiling '/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/srv/_add_two_ints.py'...
+[9.161s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.161s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.162s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.162s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.162s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.162s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/local/lib/python3.10/dist-packages/package1/package1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.163s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_generator_py.so
+[9.163s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/libpackage1__rosidl_generator_py.so" to ""
+[9.163s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/srv/AddTwoInts.idl
+[9.163s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/srv/AddTwoInts.srv
+[9.164s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/srv/AddTwoInts_Request.msg
+[9.164s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/srv/AddTwoInts_Response.msg
+[9.164s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/package1/my_node
+[9.164s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/package1/talker
+[9.164s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/package1/talker" to ""
+[9.164s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/package1/listener
+[9.166s] -- Set runtime path of "/home/karol/ITB/URO/KRAI/ros2_ws/install/package1/lib/package1/listener" to ""
+[9.166s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/launch
+[9.166s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/launch/display.launch.py
+[9.166s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/urdf
+[9.166s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/urdf/myfirst.urdf
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/ament_index/resource_index/package_run_dependencies/package1
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/ament_index/resource_index/parent_prefix_path/package1
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/environment/ament_prefix_path.sh
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/environment/ament_prefix_path.dsv
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/environment/path.sh
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/environment/path.dsv
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/local_setup.bash
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/local_setup.sh
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/local_setup.zsh
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/local_setup.dsv
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/package.dsv
+[9.167s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/ament_index/resource_index/packages/package1
+[9.168s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_generator_cExport.cmake
+[9.168s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_generator_cExport-noconfig.cmake
+[9.168s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_typesupport_fastrtps_cExport.cmake
+[9.168s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.168s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_generator_cppExport.cmake
+[9.168s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.168s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.169s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1__rosidl_typesupport_introspection_cExport.cmake
+[9.169s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.169s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1__rosidl_typesupport_cExport.cmake
+[9.169s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1__rosidl_typesupport_cExport-noconfig.cmake
+[9.169s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1__rosidl_typesupport_introspection_cppExport.cmake
+[9.169s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.169s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1__rosidl_typesupport_cppExport.cmake
+[9.170s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1__rosidl_typesupport_cppExport-noconfig.cmake
+[9.170s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_generator_pyExport.cmake
+[9.170s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/export_package1__rosidl_generator_pyExport-noconfig.cmake
+[9.170s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/rosidl_cmake-extras.cmake
+[9.170s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.170s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/ament_cmake_export_libraries-extras.cmake
+[9.170s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/ament_cmake_export_targets-extras.cmake
+[9.171s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.171s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.171s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.171s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1Config.cmake
+[9.171s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/cmake/package1Config-version.cmake
+[9.171s] -- Installing: /home/karol/ITB/URO/KRAI/ros2_ws/install/package1/share/package1/package.xml
+[9.174s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/package1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/package1

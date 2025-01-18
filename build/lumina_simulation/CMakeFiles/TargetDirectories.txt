@@ -1,0 +1,9 @@
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/uninstall.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/lumina_simulation_uninstall.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/test.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/edit_cache.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/rebuild_cache.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/list_install_components.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/install.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/install/local.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/install/strip.dir

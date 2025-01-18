@@ -13,15 +13,15 @@ public:
     : Node("minimal_publisher"), count_(0)
     {
         
-        publisher_ = this->create_publisher<tutorial_interfaces::msg::Num::>("topic", 10);
-        time_ = this->create_wall_timer(
+        publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10);
+        timer_ = this->create_wall_timer(
             500ms, std::bind(&MinimalPublisher::timer_callback, this)
         );
     }
 private:
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr publisher_;
-    size_t count_
+    size_t count_;
     void timer_callback()
     {
         auto message = tutorial_interfaces::msg::Num();

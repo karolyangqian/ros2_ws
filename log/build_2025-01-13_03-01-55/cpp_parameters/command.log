@@ -1,0 +1,4 @@
+Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters -- -j22 -l22
+Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters -- -j22 -l22
+Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters
+Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters

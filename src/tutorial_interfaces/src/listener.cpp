@@ -20,9 +20,9 @@ private:
     rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr subscription_;
     void topic_callback(const tutorial_interfaces::msg::Num & msg) const
     {
-        RCLCPP_INFO_STREAM(this->get_logger(), "Heard: " << msg.Num);
+        RCLCPP_INFO_STREAM(this->get_logger(), "Heard: " << msg.num);
     }
-}
+};
 
 int main(int argc, char const *argv[])
 {

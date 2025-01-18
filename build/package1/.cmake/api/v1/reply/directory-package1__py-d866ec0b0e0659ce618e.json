@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "package1__py",
+		"source" : "/home/karol/ITB/URO/KRAI/ros2_ws/build/package1/package1__py"
+	}
+}

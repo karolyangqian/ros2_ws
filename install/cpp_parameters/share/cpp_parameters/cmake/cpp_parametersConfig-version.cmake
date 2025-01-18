@@ -1,0 +1,1 @@
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig-version.cmake

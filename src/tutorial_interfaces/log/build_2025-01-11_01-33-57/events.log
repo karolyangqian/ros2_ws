@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000593] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.009158] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.009454] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.009922] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces', '--', '-j22', '-l22'], 'cwd': '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'karol'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/karol'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/karol/ITB/URO/KRAI/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2194'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=43c42e953529c482888f997267815eb2'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install:/home/karol/turtlebot3_ws/install:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'karol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'karol'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/karol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/karol/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/karol-Yoga-7-2-in-1-14IML9:@/tmp/.ICE-unix/2194,unix/karol-Yoga-7-2-in-1-14IML9:/tmp/.ICE-unix/2194'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33eb5401_2422_476d_abec_bbb1d6d12e84'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BPOH02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-627a42a7a4.sock'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/karol/turtlebot3_ws/install/turtlebot3_simulations:/home/karol/turtlebot3_ws/install/turtlebot3_gazebo:/home/karol/turtlebot3_ws/install/turtlebot3_fake_node:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install/urdf_example:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_navigation:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_localization:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_hardware_interfaces:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_config:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_bringup:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/axebot_description:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=43c42e953529c482888f997267815eb2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/karol/turtlebot3_ws/install/turtlebot3_simulations:/home/karol/turtlebot3_ws/install/turtlebot3_gazebo:/home/karol/turtlebot3_ws/install/turtlebot3_fake_node:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install/urdf_example:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_navigation:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_localization:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_hardware_interfaces:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_config:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_bringup:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/axebot_description:/opt/ros/humble')]), 'shell': False}
+[0.033946] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099777] (-) TimerEvent: {}
+[0.110980] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.125203] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.126348] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.129215] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.134282] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.141028] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.160636] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.165275] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.179013] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.179715] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.189486] (tutorial_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.199839] (-) TimerEvent: {}
+[0.209870] (tutorial_interfaces) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.299976] (-) TimerEvent: {}
+[0.397522] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400071] (-) TimerEvent: {}
+[0.500668] (-) TimerEvent: {}
+[0.600985] (-) TimerEvent: {}
+[0.682270] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701071] (-) TimerEvent: {}
+[0.786421] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.798853] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.801163] (-) TimerEvent: {}
+[0.814660] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.814853] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.814925] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.837319] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.856063] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.856715] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp>;/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c;/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_py\n'}
+[0.856864] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.858477] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.861944] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.863913] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.878353] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.878494] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.880335] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.881262] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.901402] (-) TimerEvent: {}
+[0.906371] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.915325] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces\n'}
+[0.943225] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.952270] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[0.952488] (tutorial_interfaces) StdoutLine: {'line': b'[ 11%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[0.952567] (tutorial_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.953640] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] Built target tutorial_interfaces__cpp\n'}
+[0.955217] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[0.962243] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.962533] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.962742] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.964419] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.965105] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.965529] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.974197] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[0.974485] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[0.975303] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.975491] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.976808] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.978929] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.996201] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces\n'}
+[1.001477] (-) TimerEvent: {}
+[1.015520] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__py\n'}
+[1.029322] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.042757] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[1.054218] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.054460] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.055150] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.069924] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.070145] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.070212] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.101642] (-) TimerEvent: {}
+[1.146445] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.146757] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[1.146935] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[1.147074] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[1.148804] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[1.149299] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[1.175683] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[1.201799] (-) TimerEvent: {}
+[1.302163] (-) TimerEvent: {}
+[1.402548] (-) TimerEvent: {}
+[1.502940] (-) TimerEvent: {}
+[1.603388] (-) TimerEvent: {}
+[1.703967] (-) TimerEvent: {}
+[1.804389] (-) TimerEvent: {}
+[1.904969] (-) TimerEvent: {}
+[2.005680] (-) TimerEvent: {}
+[2.106210] (-) TimerEvent: {}
+[2.206721] (-) TimerEvent: {}
+[2.307233] (-) TimerEvent: {}
+[2.407851] (-) TimerEvent: {}
+[2.443047] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:24:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.443677] (tutorial_interfaces) StderrLine: {'line': b'   24 |     size_t \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K\n'}
+[2.443857] (tutorial_interfaces) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.443995] (tutorial_interfaces) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.444123] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.444255] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.444383] (tutorial_interfaces) StderrLine: {'line': b'   16 |         publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<tutorial_interfaces::msg::Num::>\x1b[m\x1b[K("topic", 10);\n'}
+[2.444508] (tutorial_interfaces) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.444651] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.444787] (tutorial_interfaces) StderrLine: {'line': b'   16 |         publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<tutorial_interfaces::msg::Num::>("topic", 10)\x1b[m\x1b[K;\n'}
+[2.444911] (tutorial_interfaces) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.447975] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.448279] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.448416] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.448539] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:4\x1b[m\x1b[K:\n'}
+[2.449204] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.449336] (tutorial_interfaces) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.449413] (tutorial_interfaces) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.449481] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.449551] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.449639] (tutorial_interfaces) StderrLine: {'line': b'   16 |         publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<tutorial_interfaces::msg::Num::>("topic", 10)\x1b[m\x1b[K;\n'}
+[2.449706] (tutorial_interfaces) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.451258] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.451541] (tutorial_interfaces) StderrLine: {'line': b'   17 |         \x1b[01;31m\x1b[Ktime_\x1b[m\x1b[K = this->create_wall_timer(\n'}
+[2.451697] (tutorial_interfaces) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.451827] (tutorial_interfaces) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimer_\x1b[m\x1b[K\n'}
+[2.471808] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/listener.cpp:25:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.472091] (tutorial_interfaces) StderrLine: {'line': b'   25 | }\n'}
+[2.472207] (tutorial_interfaces) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.472315] (tutorial_interfaces) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.478578] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.478844] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.478950] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.479045] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.479136] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.479224] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.479312] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.479400] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.479490] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.479601] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.479787] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/listener.cpp:4\x1b[m\x1b[K:\n'}
+[2.479863] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(const Num&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.479925] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/listener.cpp:23:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst Num\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KNum\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Knum\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.480002] (tutorial_interfaces) StderrLine: {'line': b'   23 |         RCLCPP_INFO_STREAM(this->get_logger(), "Heard: " << msg.\x1b[01;31m\x1b[KNum\x1b[m\x1b[K);\n'}
+[2.480059] (tutorial_interfaces) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.507930] (-) TimerEvent: {}
+[2.608294] (-) TimerEvent: {}
+[2.708682] (-) TimerEvent: {}
+[2.802276] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1\n'}
+[2.802800] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.802938] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.808758] (-) TimerEvent: {}
+[2.909032] (-) TimerEvent: {}
+[3.009382] (-) TimerEvent: {}
+[3.109666] (-) TimerEvent: {}
+[3.209996] (-) TimerEvent: {}
+[3.310330] (-) TimerEvent: {}
+[3.410664] (-) TimerEvent: {}
+[3.510992] (-) TimerEvent: {}
+[3.611318] (-) TimerEvent: {}
+[3.711643] (-) TimerEvent: {}
+[3.811964] (-) TimerEvent: {}
+[3.912284] (-) TimerEvent: {}
+[3.943327] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1\n'}
+[3.943690] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.943911] (tutorial_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.946581] (tutorial_interfaces) CommandEnded: {'returncode': 2}
+[3.953966] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 2}
+[3.964349] (-) EventReactorShutdown: {}

@@ -1,0 +1,121 @@
+[0.011s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j22 -l22
+[0.034s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.110s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.125s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.126s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.129s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.160s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.165s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.179s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.179s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.189s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.209s] -- Found tutorial_interfaces: 0.0.0 (/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.397s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.814s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.814s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.814s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.837s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.856s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.856s] -- Configured cppcheck include dirs: /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp>;/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c;/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_py
+[0.856s] -- Configured cppcheck exclude dirs and/or files: 
+[0.858s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.861s] -- Added test 'lint_cmake' to check CMake code style
+[0.863s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.878s] -- Added test 'uncrustify' to check C / C++ code style
+[0.878s] -- Configured uncrustify additional arguments: 
+[0.880s] -- Added test 'xmllint' to check XML markup files
+[0.881s] -- Configuring done
+[0.906s] -- Generating done
+[0.915s] -- Build files have been written to: /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[0.952s] [  1%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.952s] [ 11%] Built target tutorial_interfaces__rosidl_generator_c
+[0.952s] [ 13%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.953s] [ 15%] Built target tutorial_interfaces__cpp
+[0.955s] [ 15%] Built target ament_cmake_python_copy_tutorial_interfaces
+[0.962s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.962s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[0.962s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.964s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[0.965s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[0.965s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.974s] [ 25%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[0.974s] [ 35%] Built target tutorial_interfaces__rosidl_typesupport_c
+[0.975s] [ 45%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[0.975s] [ 54%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.976s] [ 64%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[0.978s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[0.996s] [ 74%] Built target tutorial_interfaces
+[1.015s] [ 76%] Built target tutorial_interfaces__py
+[1.029s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py[0m
+[1.042s] [ 84%] Built target tutorial_interfaces__rosidl_generator_py
+[1.054s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.054s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[1.055s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.069s] [ 96%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.070s] [ 96%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[1.070s] [ 96%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.146s] running egg_info
+[1.146s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.146s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.147s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.148s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.149s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.175s] [ 96%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[2.443s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:24:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.443s]    24 |     size_t [01;31m[Kcount_[m[K
+[2.443s]       |            [01;31m[K^~~~~~[m[K
+[2.443s]       |                  [32m[K;[m[K
+[2.444s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.444s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.444s]    16 |         publisher_ = this->[01;31m[Kcreate_publisher<tutorial_interfaces::msg::Num::>[m[K("topic", 10);
+[2.444s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.444s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+[2.444s]    16 |         publisher_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::Num::>("topic", 10)[m[K;
+[2.444s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.448s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.449s]                  from [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:4[m[K:
+[2.449s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.449s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.449s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.449s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.449s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.449s]    16 |         publisher_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::Num::>("topic", 10)[m[K;
+[2.449s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.451s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_[m[K’?
+[2.451s]    17 |         [01;31m[Ktime_[m[K = this->create_wall_timer(
+[2.451s]       |         [01;31m[K^~~~~[m[K
+[2.451s]       |         [32m[Ktimer_[m[K
+[2.471s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/listener.cpp:25:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.472s]    25 | }
+[2.472s]       |  [01;31m[K^[m[K
+[2.472s]       |  [32m[K;[m[K
+[2.478s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.479s]                  from [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/listener.cpp:4[m[K:
+[2.479s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/listener.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Num&) const[m[K’:
+[2.479s] [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/listener.cpp:23:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Num[m[K’ {aka ‘[01m[Kconst struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KNum[m[K’; did you mean ‘[01m[Knum[m[K’?
+[2.479s]    23 |         RCLCPP_INFO_STREAM(this->get_logger(), "Heard: " << msg.[01;31m[KNum[m[K);
+[2.479s]       |                                                                 [01;31m[K^~~[m[K
+[2.802s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[2.802s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/talker.dir/all] Error 2
+[2.802s] gmake[1]: *** Waiting for unfinished jobs....
+[3.943s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+[3.943s] gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/listener.dir/all] Error 2
+[3.943s] gmake: *** [Makefile:146: all] Error 2
+[3.946s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j22 -l22

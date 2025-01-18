@@ -1,0 +1,22 @@
+[01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   16 |         publisher_ = this->[01;31m[Kcreate_publisher<tutorial_interfaces::msg::Num::>[m[K("topic", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+   16 |         publisher_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::Num::>("topic", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/src/talker.cpp:16:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |         publisher_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::Num::>("topic", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

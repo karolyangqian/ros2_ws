@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000303] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
-[0.000340] (-) JobUnselected: {'identifier': 'lumina_simulation'}
-[0.000366] (-) JobUnselected: {'identifier': 'package1'}
-[0.000388] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
-[0.000409] (-) JobUnselected: {'identifier': 'urdf_tutorial'}
-[0.000431] (-) EventReactorShutdown: {}

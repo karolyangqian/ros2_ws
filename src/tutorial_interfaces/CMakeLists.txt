@@ -12,19 +12,26 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(tutorial_interfaces REQUIRED)                      # CHANGE
+find_package(tutorial_interfaces REQUIRED)                      
 
-add_executable(talker src/publisher_member_function.cpp)
-ament_target_dependencies(talker rclcpp tutorial_interfaces)    # CHANGE
+add_executable(talker src/talker.cpp)
+ament_target_dependencies(talker rclcpp tutorial_interfaces)    
 
-add_executable(listener src/subscriber_member_function.cpp)
-ament_target_dependencies(listener rclcpp tutorial_interfaces)  # CHANGE
+add_executable(listener src/listener.cpp)
+ament_target_dependencies(listener rclcpp tutorial_interfaces)
+
+add_executable(server src/add_three_ints_srv.cpp)
+ament_target_dependencies(server rclcpp tutorial_interfaces)
+
+add_executable(client src/add_three_ints_cli.cpp)
+ament_target_dependencies(client rclcpp tutorial_interfaces)
 
 install(TARGETS
   talker
   listener
+  server
+  client
   DESTINATION lib/${PROJECT_NAME})
 
 rosidl_generate_interfaces(${PROJECT_NAME}
