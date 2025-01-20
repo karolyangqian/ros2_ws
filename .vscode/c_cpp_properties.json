@@ -15,7 +15,8 @@
                 "/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller/include/**",
                 "/opt/ros/humble/include/**",
                 "/usr/include/**",
-                "${workspaceFolder}/build/tutorial_interfaces/rosidl_generator_cpp"
+                "${workspaceFolder}/build/tutorial_interfaces/rosidl_generator_cpp",
+                "${workspaceFolder}/src/action_tutorials_cpp/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

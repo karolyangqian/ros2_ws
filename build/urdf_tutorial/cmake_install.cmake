@@ -1,4 +1,4 @@
-# Install script for directory: /home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial
+# Install script for directory: /home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,11 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf_tutorial" TYPE DIRECTORY FILES
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial/images"
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial/launch"
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial/meshes"
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial/rviz"
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial/urdf"
+    "/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial/images"
+    "/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial/launch"
+    "/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial/meshes"
+    "/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial/rviz"
+    "/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial/urdf"
     )
 endif()
 
@@ -108,7 +108,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf_tutorial" TYPE FILE FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf_tutorial" TYPE FILE FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

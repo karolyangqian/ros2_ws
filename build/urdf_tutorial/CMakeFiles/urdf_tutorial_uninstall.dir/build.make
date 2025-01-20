@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial
+CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial
@@ -82,6 +82,6 @@ CMakeFiles/urdf_tutorial_uninstall.dir/clean:
 .PHONY : CMakeFiles/urdf_tutorial_uninstall.dir/clean
 
 CMakeFiles/urdf_tutorial_uninstall.dir/depend:
-	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial /home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/urdf_tutorial /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial/CMakeFiles/urdf_tutorial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial /home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial/CMakeFiles/urdf_tutorial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/urdf_tutorial_uninstall.dir/depend
 

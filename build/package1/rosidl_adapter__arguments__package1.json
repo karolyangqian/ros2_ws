@@ -1,6 +1,0 @@
-{
-  "package_name": "package1",
-  "non_idl_tuples": [
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/learn_simulation/package1:srv/AddTwoInts.srv"
-  ]
-}
