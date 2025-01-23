@@ -1,2 +1,1 @@
-source;share/lumina_simulation/environment/ament_prefix_path.sh
-source;share/lumina_simulation/environment/path.sh
+/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.dsv

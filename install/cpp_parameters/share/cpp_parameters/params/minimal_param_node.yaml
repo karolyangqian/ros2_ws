@@ -1,12 +1,1 @@
-/minimal_param_node:
-  ros__parameters:
-    my_parameter: 69420
-    qos_overrides:
-      /parameter_events:
-        publisher:
-          depth: 1000
-          durability: volatile
-          history: keep_last
-          reliability: reliable
-    use_sim_time: false
-
+/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters/params/minimal_param_node.yaml

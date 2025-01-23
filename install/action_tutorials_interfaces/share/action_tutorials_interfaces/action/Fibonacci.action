@@ -1,5 +1,1 @@
-int32 order
----
-int32[] sequence
----
-int32[] partial_sequence
+/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_interfaces/action/Fibonacci.action

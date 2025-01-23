@@ -1,1 +1,1 @@
-tutorial_interfaces
+/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces.egg-info/top_level.txt

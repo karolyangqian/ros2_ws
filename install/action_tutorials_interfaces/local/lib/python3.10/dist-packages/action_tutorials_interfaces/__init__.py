@@ -1,0 +1,1 @@
+/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/rosidl_generator_py/action_tutorials_interfaces/__init__.py

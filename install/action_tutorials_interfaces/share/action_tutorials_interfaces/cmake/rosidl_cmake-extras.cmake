@@ -1,4 +1,1 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(action_tutorials_interfaces_IDL_FILES "action/Fibonacci.idl")
-set(action_tutorials_interfaces_INTERFACE_FILES "action/Fibonacci.action")
+/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

@@ -1,1 +1,1 @@
-int64 num
+/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/msg/Num.msg

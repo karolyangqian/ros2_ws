@@ -9,7 +9,7 @@
 /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir
-/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/ament_cmake_python_copy_action_tutorials_interfaces.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/ament_cmake_python_symlink_action_tutorials_interfaces.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/ament_cmake_python_build_action_tutorials_interfaces_egg.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/action_tutorials_interfaces__rosidl_generator_py.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir

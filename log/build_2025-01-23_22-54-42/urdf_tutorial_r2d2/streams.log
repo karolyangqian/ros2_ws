@@ -1,0 +1,31 @@
+[0.897s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data
+[1.259s] running develop
+[1.434s] running egg_info
+[1.434s] creating urdf_tutorial_r2d2.egg-info
+[1.435s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[1.435s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[1.435s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[1.435s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[1.435s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[1.435s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.437s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.437s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.438s] running build_ext
+[1.438s] Creating /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[1.438s] Installing state_publisher script to /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[1.438s] 
+[1.439s] Installed /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2
+[1.439s] running symlink_data
+[1.439s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index
+[1.439s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index
+[1.439s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[1.439s] symbolically linking /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/resource/urdf_tutorial_r2d2 -> /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[1.439s] symbolically linking /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/package.xml -> /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[1.439s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[1.439s] symbolically linking /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/launch/demo.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[1.439s] symbolically linking /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/launch/display.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[1.439s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/urdf
+[1.439s] symbolically linking /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/urdf/r2d2.urdf -> /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/urdf
+[1.439s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/rviz
+[1.440s] symbolically linking /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/rviz/r2d2.rviz -> /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/rviz
+[1.476s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data

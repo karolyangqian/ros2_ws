@@ -1,2 +1,1 @@
-geometry_msgs/Point center
-float64 radius
+/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/msg/Sphere.msg
