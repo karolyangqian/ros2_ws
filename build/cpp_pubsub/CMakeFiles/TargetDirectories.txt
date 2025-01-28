@@ -1,0 +1,13 @@
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/uninstall.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/talker.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/listener.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/server.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/client.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/test.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/edit_cache.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/rebuild_cache.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/list_install_components.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/install.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/install/local.dir
+/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_pubsub/CMakeFiles/install/strip.dir

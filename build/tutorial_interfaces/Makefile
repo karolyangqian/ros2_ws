@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces
+CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces
@@ -196,58 +196,6 @@ tutorial_interfaces_uninstall: cmake_check_build_system
 tutorial_interfaces_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial_interfaces_uninstall.dir/build.make CMakeFiles/tutorial_interfaces_uninstall.dir/build
 .PHONY : tutorial_interfaces_uninstall/fast
-
-#=============================================================================
-# Target rules for targets named talker
-
-# Build rule for target.
-talker: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 talker
-.PHONY : talker
-
-# fast build rule for target.
-talker/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-.PHONY : talker/fast
-
-#=============================================================================
-# Target rules for targets named listener
-
-# Build rule for target.
-listener: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 listener
-.PHONY : listener
-
-# fast build rule for target.
-listener/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
-.PHONY : listener/fast
-
-#=============================================================================
-# Target rules for targets named server
-
-# Build rule for target.
-server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server
-.PHONY : server
-
-# fast build rule for target.
-server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
-.PHONY : server/fast
-
-#=============================================================================
-# Target rules for targets named client
-
-# Build rule for target.
-client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
-.PHONY : client
-
-# fast build rule for target.
-client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
-.PHONY : client/fast
 
 #=============================================================================
 # Target rules for targets named tutorial_interfaces
@@ -1105,102 +1053,6 @@ rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_in
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.s
 
-src/add_three_ints_cli.o: src/add_three_ints_cli.cpp.o
-.PHONY : src/add_three_ints_cli.o
-
-# target to build an object file
-src/add_three_ints_cli.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_three_ints_cli.cpp.o
-.PHONY : src/add_three_ints_cli.cpp.o
-
-src/add_three_ints_cli.i: src/add_three_ints_cli.cpp.i
-.PHONY : src/add_three_ints_cli.i
-
-# target to preprocess a source file
-src/add_three_ints_cli.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_three_ints_cli.cpp.i
-.PHONY : src/add_three_ints_cli.cpp.i
-
-src/add_three_ints_cli.s: src/add_three_ints_cli.cpp.s
-.PHONY : src/add_three_ints_cli.s
-
-# target to generate assembly for a file
-src/add_three_ints_cli.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_three_ints_cli.cpp.s
-.PHONY : src/add_three_ints_cli.cpp.s
-
-src/add_three_ints_srv.o: src/add_three_ints_srv.cpp.o
-.PHONY : src/add_three_ints_srv.o
-
-# target to build an object file
-src/add_three_ints_srv.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_three_ints_srv.cpp.o
-.PHONY : src/add_three_ints_srv.cpp.o
-
-src/add_three_ints_srv.i: src/add_three_ints_srv.cpp.i
-.PHONY : src/add_three_ints_srv.i
-
-# target to preprocess a source file
-src/add_three_ints_srv.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_three_ints_srv.cpp.i
-.PHONY : src/add_three_ints_srv.cpp.i
-
-src/add_three_ints_srv.s: src/add_three_ints_srv.cpp.s
-.PHONY : src/add_three_ints_srv.s
-
-# target to generate assembly for a file
-src/add_three_ints_srv.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_three_ints_srv.cpp.s
-.PHONY : src/add_three_ints_srv.cpp.s
-
-src/listener.o: src/listener.cpp.o
-.PHONY : src/listener.o
-
-# target to build an object file
-src/listener.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/listener.cpp.o
-.PHONY : src/listener.cpp.o
-
-src/listener.i: src/listener.cpp.i
-.PHONY : src/listener.i
-
-# target to preprocess a source file
-src/listener.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/listener.cpp.i
-.PHONY : src/listener.cpp.i
-
-src/listener.s: src/listener.cpp.s
-.PHONY : src/listener.s
-
-# target to generate assembly for a file
-src/listener.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/listener.cpp.s
-.PHONY : src/listener.cpp.s
-
-src/talker.o: src/talker.cpp.o
-.PHONY : src/talker.o
-
-# target to build an object file
-src/talker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/talker.cpp.o
-.PHONY : src/talker.cpp.o
-
-src/talker.i: src/talker.cpp.i
-.PHONY : src/talker.i
-
-# target to preprocess a source file
-src/talker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/talker.cpp.i
-.PHONY : src/talker.cpp.i
-
-src/talker.s: src/talker.cpp.s
-.PHONY : src/talker.s
-
-# target to generate assembly for a file
-src/talker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/talker.cpp.s
-.PHONY : src/talker.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1221,10 +1073,6 @@ help:
 	@echo "... tutorial_interfaces__py"
 	@echo "... tutorial_interfaces_uninstall"
 	@echo "... uninstall"
-	@echo "... client"
-	@echo "... listener"
-	@echo "... server"
-	@echo "... talker"
 	@echo "... tutorial_interfaces__rosidl_generator_c"
 	@echo "... tutorial_interfaces__rosidl_generator_py"
 	@echo "... tutorial_interfaces__rosidl_typesupport_c"
@@ -1317,18 +1165,6 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.s"
-	@echo "... src/add_three_ints_cli.o"
-	@echo "... src/add_three_ints_cli.i"
-	@echo "... src/add_three_ints_cli.s"
-	@echo "... src/add_three_ints_srv.o"
-	@echo "... src/add_three_ints_srv.i"
-	@echo "... src/add_three_ints_srv.s"
-	@echo "... src/listener.o"
-	@echo "... src/listener.i"
-	@echo "... src/listener.s"
-	@echo "... src/talker.o"
-	@echo "... src/talker.i"
-	@echo "... src/talker.s"
 .PHONY : help
 
 

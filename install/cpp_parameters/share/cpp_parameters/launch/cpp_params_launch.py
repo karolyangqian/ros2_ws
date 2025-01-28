@@ -1,1 +1,1 @@
-/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters/launch/cpp_params_launch.py
+/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters/launch/cpp_params_launch.py

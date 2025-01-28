@@ -296,7 +296,7 @@ urdf_tutorial_BINARY_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tuto
 urdf_tutorial_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-urdf_tutorial_SOURCE_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial
+urdf_tutorial_SOURCE_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial
 
 
 ########################
@@ -383,7 +383,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

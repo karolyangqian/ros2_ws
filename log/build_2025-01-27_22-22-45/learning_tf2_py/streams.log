@@ -1,0 +1,57 @@
+[0.893s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build
+[1.122s] running develop
+[1.267s] Removing /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning-tf2-py.egg-link (link to .)
+[1.307s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build
+[1.310s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/learning_tf2_py': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_tf2_py build --build-base /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build install --record /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data --force
+[1.501s] running egg_info
+[1.501s] writing ../../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[1.507s] writing dependency_links to ../../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[1.507s] writing entry points to ../../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[1.507s] writing requirements to ../../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[1.507s] writing top-level names to ../../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[1.508s] reading manifest file '../../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.508s] adding license file 'LICENSE'
+[1.509s] writing manifest file '../../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.509s] running build
+[1.509s] running build_py
+[1.510s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build
+[1.510s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib
+[1.510s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.510s] copying learning_tf2_py/turtle_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.510s] copying learning_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.510s] copying learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.510s] copying learning_tf2_py/turtle_tf2_listener.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.510s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.511s] copying learning_tf2_py/__init__.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.511s] running install
+[1.511s] running install_lib
+[1.511s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.511s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.511s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.511s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.511s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_listener.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.511s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.511s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.511s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+[1.511s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+[1.512s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-310.pyc
+[1.512s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+[1.512s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-310.pyc
+[1.513s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/__init__.py to __init__.cpython-310.pyc
+[1.513s] running install_data
+[1.513s] copying resource/learning_tf2_py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/ament_index/resource_index/packages
+[1.513s] copying package.xml -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py
+[1.513s] copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.513s] copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.513s] copying launch/static_transform_publisher.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.513s] copying launch/turtle_tf2_demo.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.513s] running install_egg_info
+[1.513s] Copying ../../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[1.513s] running install_scripts
+[1.524s] Installing dynamic_frame_tf2_broadcaster script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.524s] Installing fixed_frame_tf2_broadcaster script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.524s] Installing static_turtle_tf2_broadcaster script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.524s] Installing turtle_tf2_broadcaster script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.524s] Installing turtle_tf2_listener script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.524s] writing list of installed files to '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/install.log'
+[1.547s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/learning_tf2_py' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_tf2_py build --build-base /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build install --record /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data --force

@@ -310,47 +310,47 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "talker" "listener" "server" "client" "DESTINATION" "lib/tutorial_interfaces")
+# install("TARGETS" "DESTINATION" "lib/tutorial_interfaces")
 include("/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
 # install(DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
 
 # install(DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN_EXCLUDE" "*.cpp")
 
 # install(DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.hpp")
 
 # install(DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN_EXCLUDE" "*.cpp")
 
 # install(DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_introspection_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_introspection_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_introspection_c/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.h")
 
 # install(DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp/tutorial_interfaces/" "DESTINATION" "include/tutorial_interfaces/tutorial_interfaces" "PATTERN" "*.hpp")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/tutorial_interfaces/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/tutorial_interfaces/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/tutorial_interfaces/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
 
 # install(DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info")
 
 # install(DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/tutorial_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/tutorial_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" DIRECTORY "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/tutorial_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/tutorial_interfaces")
 include("/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
@@ -362,88 +362,88 @@ include("/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_
 include("/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Num.idl" "DESTINATION" "share/tutorial_interfaces/msg")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Num.idl" "DESTINATION" "share/tutorial_interfaces/msg")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Num.idl" "DESTINATION" "share/tutorial_interfaces/msg")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Sphere.idl" "DESTINATION" "share/tutorial_interfaces/msg")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Sphere.idl" "DESTINATION" "share/tutorial_interfaces/msg")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Sphere.idl" "DESTINATION" "share/tutorial_interfaces/msg")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/srv/AddThreeInts.idl" "DESTINATION" "share/tutorial_interfaces/srv")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/srv/AddThreeInts.idl" "DESTINATION" "share/tutorial_interfaces/srv")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/srv/AddThreeInts.idl" "DESTINATION" "share/tutorial_interfaces/srv")
 
-# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/msg/Num.msg" "DESTINATION" "share/tutorial_interfaces/msg")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/msg/Num.msg" "DESTINATION" "share/tutorial_interfaces/msg")
+# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces/msg/Num.msg" "DESTINATION" "share/tutorial_interfaces/msg")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces/msg/Num.msg" "DESTINATION" "share/tutorial_interfaces/msg")
 
-# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/msg/Sphere.msg" "DESTINATION" "share/tutorial_interfaces/msg")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/msg/Sphere.msg" "DESTINATION" "share/tutorial_interfaces/msg")
+# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces/msg/Sphere.msg" "DESTINATION" "share/tutorial_interfaces/msg")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces/msg/Sphere.msg" "DESTINATION" "share/tutorial_interfaces/msg")
 
-# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/srv/AddThreeInts.srv" "DESTINATION" "share/tutorial_interfaces/srv")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/srv/AddThreeInts.srv" "DESTINATION" "share/tutorial_interfaces/srv")
+# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces/srv/AddThreeInts.srv" "DESTINATION" "share/tutorial_interfaces/srv")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces/srv/AddThreeInts.srv" "DESTINATION" "share/tutorial_interfaces/srv")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Request.msg" "DESTINATION" "share/tutorial_interfaces/srv")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Request.msg" "DESTINATION" "share/tutorial_interfaces/srv")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Request.msg" "DESTINATION" "share/tutorial_interfaces/srv")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Response.msg" "DESTINATION" "share/tutorial_interfaces/srv")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Response.msg" "DESTINATION" "share/tutorial_interfaces/srv")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/srv/AddThreeInts_Response.msg" "DESTINATION" "share/tutorial_interfaces/srv")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/tutorial_interfaces/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/tutorial_interfaces/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/tutorial_interfaces")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/tutorial_interfaces")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/tutorial_interfaces")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/tutorial_interfaces")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/tutorial_interfaces")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/tutorial_interfaces")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/tutorial_interfaces")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/tutorial_interfaces")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/tutorial_interfaces")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/tutorial_interfaces")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/tutorial_interfaces")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/tutorial_interfaces")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/tutorial_interfaces")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/tutorial_interfaces")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/tutorial_interfaces")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/tutorial_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_core/tutorial_interfacesConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_core/tutorial_interfacesConfig-version.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_core/tutorial_interfacesConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_core/tutorial_interfacesConfig-version.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_core/tutorial_interfacesConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/ament_cmake_core/tutorial_interfacesConfig-version.cmake" "DESTINATION" "share/tutorial_interfaces/cmake")
 
-# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/package.xml" "DESTINATION" "share/tutorial_interfaces")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/package.xml" "DESTINATION" "share/tutorial_interfaces")
+# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces/package.xml" "DESTINATION" "share/tutorial_interfaces")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces/package.xml" "DESTINATION" "share/tutorial_interfaces")

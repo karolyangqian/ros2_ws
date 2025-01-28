@@ -1,2 +1,0 @@
-Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j22 -l22
-Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j22 -l22

@@ -1,0 +1,38 @@
+[0.394s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/bumperbot/bumperbot_localization': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_localization build --build-base /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build install --record /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/install.log --single-version-externally-managed install_data
+[0.567s] running egg_info
+[0.568s] creating ../../../build/bumperbot_localization/bumperbot_localization.egg-info
+[0.568s] writing ../../../build/bumperbot_localization/bumperbot_localization.egg-info/PKG-INFO
+[0.568s] writing dependency_links to ../../../build/bumperbot_localization/bumperbot_localization.egg-info/dependency_links.txt
+[0.569s] writing entry points to ../../../build/bumperbot_localization/bumperbot_localization.egg-info/entry_points.txt
+[0.569s] writing requirements to ../../../build/bumperbot_localization/bumperbot_localization.egg-info/requires.txt
+[0.569s] writing top-level names to ../../../build/bumperbot_localization/bumperbot_localization.egg-info/top_level.txt
+[0.569s] writing manifest file '../../../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+[0.569s] reading manifest file '../../../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+[0.569s] adding license file 'LICENSE'
+[0.570s] writing manifest file '../../../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+[0.570s] running build
+[0.570s] running build_py
+[0.570s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build
+[0.570s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build/lib
+[0.570s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build/lib/bumperbot_localization
+[0.570s] copying bumperbot_localization/__init__.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build/lib/bumperbot_localization
+[0.570s] copying bumperbot_localization/odometry_motion_model.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build/lib/bumperbot_localization
+[0.570s] running install
+[0.570s] running install_lib
+[0.571s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages/bumperbot_localization
+[0.571s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build/lib/bumperbot_localization/__init__.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages/bumperbot_localization
+[0.571s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build/lib/bumperbot_localization/odometry_motion_model.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages/bumperbot_localization
+[0.571s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages/bumperbot_localization/__init__.py to __init__.cpython-310.pyc
+[0.571s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages/bumperbot_localization/odometry_motion_model.py to odometry_motion_model.cpython-310.pyc
+[0.571s] running install_data
+[0.571s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/share/ament_index
+[0.571s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/share/ament_index/resource_index
+[0.572s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/share/ament_index/resource_index/packages
+[0.572s] copying resource/bumperbot_localization -> /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/share/ament_index/resource_index/packages
+[0.572s] copying package.xml -> /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/share/bumperbot_localization
+[0.572s] running install_egg_info
+[0.573s] Copying ../../../build/bumperbot_localization/bumperbot_localization.egg-info to /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[0.573s] running install_scripts
+[0.585s] Installing odometry_motion_model script to /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/bumperbot_localization
+[0.585s] writing list of installed files to '/home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/install.log'
+[0.603s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/bumperbot/bumperbot_localization' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_localization build --build-base /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build install --record /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/install.log --single-version-externally-managed install_data

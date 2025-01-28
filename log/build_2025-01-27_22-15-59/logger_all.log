@@ -1,0 +1,729 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79f3faced9c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79f3faced480>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79f3faced480>>)
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/karol/ITB/URO/KRAI/ros2_ws'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_cpp) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/action_tutorials_cpp' with type 'ros.ament_cmake' and name 'action_tutorials_cpp'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/action_tutorials_interfaces) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/cpp_parameters) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/launch_tutorial) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/launch_tutorial' with type 'ros.ament_python' and name 'launch_tutorial'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/learning_tf2_py) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/learning_tf2_py' with type 'ros.ament_python' and name 'learning_tf2_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/simulation_testing/lumina_simulation) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/simulation_testing/lumina_simulation' with type 'ros.ament_cmake' and name 'lumina_simulation'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/tutorial_interfaces) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/urdf_tutorial' with type 'ros.ament_cmake' and name 'urdf_tutorial'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorial/urdf_tutorial_r2d2) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorial/urdf_tutorial_r2d2' with type 'ros.ament_python' and name 'urdf_tutorial_r2d2'
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.185s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.185s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.185s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.185s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.185s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.186s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/karol/turtlebot3_ws/install
+[0.187s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install
+[0.187s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/karol/ITB/URO/KRAI/nebula/nebula-ws/install
+[0.187s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/karol/ITB/URO/KRAI/ros2_ws/install
+[0.188s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 385 installed packages in /opt/ros/humble
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.214s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'urdf_tutorial' is in: /opt/ros/humble
+	'action_tutorials_interfaces' is in: /opt/ros/humble
+	'action_tutorials_cpp' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding action_tutorials_cpp action_tutorials_interfaces urdf_tutorial
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters', 'symlink_install': True, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'launch_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/launch_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'learning_tf2_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/learning_tf2_py', 'symlink_install': True, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'lumina_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'lumina_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation', 'symlink_install': True, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial_r2d2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial_r2d2', 'symlink_install': True, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp', 'merge_install': False, 'path': '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp', 'symlink_install': True, 'test_result_base': None}
+[0.217s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_interfaces' with build type 'ament_cmake'
+[0.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_interfaces'
+[0.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters' with build type 'ament_cmake'
+[0.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters'
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.226s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/launch_tutorial' with build type 'ament_python'
+[0.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'ament_prefix_path')
+[0.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.ps1'
+[0.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.dsv'
+[0.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.sh'
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/learning_tf2_py' with build type 'ament_python'
+[0.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_py', 'ament_prefix_path')
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/hook/ament_prefix_path.ps1'
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/hook/ament_prefix_path.dsv'
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/hook/ament_prefix_path.sh'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation' with build type 'ament_cmake'
+[0.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation'
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces' with build type 'ament_cmake'
+[0.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial' with build type 'ament_cmake'
+[0.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial'
+[0.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial_r2d2' with build type 'ament_python'
+[0.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial_r2d2', 'ament_prefix_path')
+[0.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.ps1'
+[0.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.dsv'
+[0.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.sh'
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces
+[0.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters
+[0.425s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/launch_tutorial'
+[0.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.600s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/learning_tf2_py'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation
+[0.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial
+[0.825s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial_r2d2'
+[0.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data
+[1.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build --no-deps symlink_data
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build --no-deps symlink_data
+[1.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial -- -j22 -l22
+[1.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial -- -j22 -l22
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial
+[1.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters -- -j22 -l22
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation -- -j22 -l22
+[1.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation -- -j22 -l22
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation
+[1.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'pythonpath_develop')
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/share/launch_tutorial/hook/pythonpath_develop.ps1'
+[1.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build --no-deps symlink_data
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/share/launch_tutorial/hook/pythonpath_develop.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/share/launch_tutorial/hook/pythonpath_develop.sh'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial' for CMake module files
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial' for CMake config files
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/bin'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/pkgconfig/launch_tutorial.pc'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages'
+[1.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'pythonpath')
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.ps1'
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.sh'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/bin'
+[1.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_tutorial)
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.dsv'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.sh'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.bash'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.zsh'
+[1.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/colcon-core/packages/launch_tutorial)
+[1.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial_r2d2', 'pythonpath_develop')
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath_develop.ps1'
+[1.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath_develop.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath_develop.sh'
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2' for CMake module files
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2' for CMake config files
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/bin'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib/pkgconfig/urdf_tutorial_r2d2.pc'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages'
+[1.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial_r2d2', 'pythonpath')
+[1.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.ps1'
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.dsv'
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.sh'
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/bin'
+[1.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial_r2d2)
+[1.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.ps1'
+[1.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.dsv'
+[1.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.sh'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.bash'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.zsh'
+[1.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2/share/colcon-core/packages/urdf_tutorial_r2d2)
+[1.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_py', 'pythonpath_develop')
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/share/learning_tf2_py/hook/pythonpath_develop.ps1'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/share/learning_tf2_py/hook/pythonpath_develop.dsv'
+[1.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build --no-deps symlink_data
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/share/learning_tf2_py/hook/pythonpath_develop.sh'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py' for CMake module files
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py' for CMake config files
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/bin'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/pkgconfig/learning_tf2_py.pc'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages'
+[1.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_py', 'pythonpath')
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/hook/pythonpath.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/hook/pythonpath.dsv'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/hook/pythonpath.sh'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/bin'
+[1.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2_py)
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/package.ps1'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/package.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/package.sh'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/package.bash'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/package.zsh'
+[1.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/colcon-core/packages/learning_tf2_py)
+[1.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial' for CMake module files
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/urdf_tutorial
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial' for CMake config files
+[1.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'cmake_prefix_path')
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.sh'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/bin'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/bin'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[1.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[1.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial' for CMake module files
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial' for CMake config files
+[1.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'cmake_prefix_path')
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.ps1'
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.dsv'
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.sh'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/bin'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/lib/python3.10/site-packages'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/bin'
+[1.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[1.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[1.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lumina_simulation)
+[1.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation' for CMake module files
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation' for CMake config files
+[1.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('lumina_simulation', 'cmake_prefix_path')
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/hook/cmake_prefix_path.ps1'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/hook/cmake_prefix_path.dsv'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/hook/cmake_prefix_path.sh'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/bin'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/lib/pkgconfig/lumina_simulation.pc'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/lib/python3.10/site-packages'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/bin'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.dsv'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.sh'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.bash'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.zsh'
+[1.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/colcon-core/packages/lumina_simulation)
+[1.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lumina_simulation)
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation' for CMake module files
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation' for CMake config files
+[1.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('lumina_simulation', 'cmake_prefix_path')
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/hook/cmake_prefix_path.ps1'
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/hook/cmake_prefix_path.dsv'
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/hook/cmake_prefix_path.sh'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/bin'
+[1.607s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/lib/pkgconfig/lumina_simulation.pc'
+[1.607s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/lib/python3.10/site-packages'
+[1.607s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/bin'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.dsv'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.sh'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.bash'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/lumina_simulation/package.zsh'
+[1.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation/share/colcon-core/packages/lumina_simulation)
+[1.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces
+[1.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces -- -j22 -l22
+[2.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces
+[2.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces -- -j22 -l22
+[3.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters -- -j22 -l22
+[3.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters
+[4.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters' for CMake module files
+[4.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters
+[4.075s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters' for CMake config files
+[4.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[4.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[4.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[4.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/lib'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/bin'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/lib/python3.10/site-packages'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/bin'
+[4.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[4.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[4.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[4.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[4.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[4.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[4.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters' for CMake module files
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters' for CMake config files
+[4.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[4.079s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/lib'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/bin'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/lib/python3.10/site-packages'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/bin'
+[4.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[4.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[4.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[4.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[4.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[4.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[4.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces -- -j22 -l22
+[4.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces
+[4.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces -- -j22 -l22
+[4.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces
+[4.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[4.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_interfaces
+[4.710s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces' for CMake module files
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces' for CMake config files
+[4.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[4.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[4.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[4.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[4.713s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib'
+[4.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[4.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[4.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[4.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[4.713s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/bin'
+[4.713s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[4.714s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages'
+[4.714s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/bin'
+[4.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[4.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[4.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[4.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[4.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[4.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[4.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[4.715s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces' for CMake module files
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces' for CMake config files
+[4.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib'
+[4.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[4.718s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/bin'
+[4.718s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[4.718s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages'
+[4.718s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/bin'
+[4.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[4.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[4.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[4.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp' with build type 'ament_cmake'
+[4.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp'
+[4.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation:/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp:/home/karol/turtlebot3_ws/install/turtlebot3_simulations:/home/karol/turtlebot3_ws/install/turtlebot3_gazebo:/home/karol/turtlebot3_ws/install/turtlebot3_fake_node:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install/urdf_example:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_navigation:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_localization:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_hardware_interfaces:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_config:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_bringup:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/axebot_description:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware/lib:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp
+[5.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[5.355s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces' for CMake module files
+[5.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces' for CMake config files
+[5.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[5.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[5.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[5.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[5.357s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib'
+[5.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[5.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[5.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[5.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[5.358s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/bin'
+[5.358s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[5.358s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[5.358s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/bin'
+[5.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[5.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[5.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[5.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[5.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[5.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[5.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[5.360s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces' for CMake module files
+[5.360s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces' for CMake config files
+[5.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[5.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[5.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[5.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[5.362s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib'
+[5.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[5.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[5.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[5.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/bin'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/bin'
+[5.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[5.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[5.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[5.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[5.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[5.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[5.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation:/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp:/home/karol/turtlebot3_ws/install/turtlebot3_simulations:/home/karol/turtlebot3_ws/install/turtlebot3_gazebo:/home/karol/turtlebot3_ws/install/turtlebot3_fake_node:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install/urdf_example:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_navigation:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_localization:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_hardware_interfaces:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_config:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_bringup:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/axebot_description:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware/lib:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp
+[5.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation:/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp:/home/karol/turtlebot3_ws/install/turtlebot3_simulations:/home/karol/turtlebot3_ws/install/turtlebot3_gazebo:/home/karol/turtlebot3_ws/install/turtlebot3_fake_node:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install/urdf_example:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_navigation:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_localization:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_hardware_interfaces:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_config:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_bringup:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/axebot_description:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware/lib:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp -- -j22 -l22
+[8.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation:/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp:/home/karol/turtlebot3_ws/install/turtlebot3_simulations:/home/karol/turtlebot3_ws/install/turtlebot3_gazebo:/home/karol/turtlebot3_ws/install/turtlebot3_fake_node:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install/urdf_example:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_navigation:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_localization:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_hardware_interfaces:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_config:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_bringup:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/axebot_description:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware/lib:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp -- -j22 -l22
+[8.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation:/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp:/home/karol/turtlebot3_ws/install/turtlebot3_simulations:/home/karol/turtlebot3_ws/install/turtlebot3_gazebo:/home/karol/turtlebot3_ws/install/turtlebot3_fake_node:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install/urdf_example:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_navigation:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_localization:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_hardware_interfaces:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_config:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_bringup:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/axebot_description:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware/lib:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp
+[8.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_cpp)
+[8.904s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp' for CMake module files
+[8.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/lumina_simulation:/home/karol/ITB/URO/KRAI/ros2_ws/install/cpp_parameters:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp:/home/karol/turtlebot3_ws/install/turtlebot3_simulations:/home/karol/turtlebot3_ws/install/turtlebot3_gazebo:/home/karol/turtlebot3_ws/install/turtlebot3_fake_node:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner:/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install/urdf_example:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_navigation:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_localization:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_hardware_interfaces:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_controller:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_config:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_bringup:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/axebot_description:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial_r2d2:/home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib:/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib:/home/karol/turtlebot3_ws/install/nav2_rrtstar_planner/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omnidirectional_controllers/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/omni_wheel_controller/lib:/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install/nebula_firmware/lib:/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp
+[8.906s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp' for CMake config files
+[8.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'cmake_prefix_path')
+[8.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.ps1'
+[8.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.dsv'
+[8.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.sh'
+[8.908s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib'
+[8.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'ld_library_path_lib')
+[8.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.ps1'
+[8.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.dsv'
+[8.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.sh'
+[8.909s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/bin'
+[8.909s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib/pkgconfig/action_tutorials_cpp.pc'
+[8.909s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib/python3.10/site-packages'
+[8.909s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/bin'
+[8.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.ps1'
+[8.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv'
+[8.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.sh'
+[8.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.bash'
+[8.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.zsh'
+[8.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/colcon-core/packages/action_tutorials_cpp)
+[8.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_cpp)
+[8.911s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp' for CMake module files
+[8.912s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp' for CMake config files
+[8.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'cmake_prefix_path')
+[8.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.ps1'
+[8.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.dsv'
+[8.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/cmake_prefix_path.sh'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib'
+[8.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_cpp', 'ld_library_path_lib')
+[8.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.ps1'
+[8.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.dsv'
+[8.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/hook/ld_library_path_lib.sh'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/bin'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib/pkgconfig/action_tutorials_cpp.pc'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/lib/python3.10/site-packages'
+[8.914s] Level 1:colcon.colcon_core.environment:checking '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/bin'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.ps1'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.sh'
+[8.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.bash'
+[8.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.zsh'
+[8.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karol/ITB/URO/KRAI/ros2_ws/install/action_tutorials_cpp/share/colcon-core/packages/action_tutorials_cpp)
+[8.915s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.915s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.915s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.915s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.920s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.920s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.920s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.933s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karol/ITB/URO/KRAI/ros2_ws/install/local_setup.ps1'
+[8.934s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/karol/ITB/URO/KRAI/ros2_ws/install/_local_setup_util_ps1.py'
+[8.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karol/ITB/URO/KRAI/ros2_ws/install/setup.ps1'
+[8.936s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karol/ITB/URO/KRAI/ros2_ws/install/local_setup.sh'
+[8.936s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/karol/ITB/URO/KRAI/ros2_ws/install/_local_setup_util_sh.py'
+[8.936s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karol/ITB/URO/KRAI/ros2_ws/install/setup.sh'
+[8.938s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karol/ITB/URO/KRAI/ros2_ws/install/local_setup.bash'
+[8.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karol/ITB/URO/KRAI/ros2_ws/install/setup.bash'
+[8.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karol/ITB/URO/KRAI/ros2_ws/install/local_setup.zsh'
+[8.940s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karol/ITB/URO/KRAI/ros2_ws/install/setup.zsh'

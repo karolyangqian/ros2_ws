@@ -1,9 +1,5 @@
 /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/uninstall.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces_uninstall.dir
-/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/talker.dir
-/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/listener.dir
-/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/server.dir
-/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/client.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir
 /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir

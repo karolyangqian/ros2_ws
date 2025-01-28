@@ -1,5 +1,5 @@
 CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o: \
- /home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp \
+ /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp/src/fibonacci_action_server.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -704,4 +704,4 @@ CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o: \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
- /home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp/include/action_tutorials_cpp/visibility_control.h
+ /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp/include/action_tutorials_cpp/visibility_control.h

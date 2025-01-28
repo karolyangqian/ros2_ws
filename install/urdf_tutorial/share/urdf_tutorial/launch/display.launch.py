@@ -1,1 +1,1 @@
-/home/karol/ITB/URO/KRAI/ros2_ws/src/urdf_tutorial/launch/display.launch.py
+/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial/launch/display.launch.py

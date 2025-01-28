@@ -1,8 +1,8 @@
 {
   "package_name": "tutorial_interfaces",
   "non_idl_tuples": [
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces:msg/Num.msg",
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces:msg/Sphere.msg",
-    "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces:srv/AddThreeInts.srv"
+    "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces:msg/Num.msg",
+    "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces:msg/Sphere.msg",
+    "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces:srv/AddThreeInts.srv"
   ]
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters
+# Install script for directory: /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -262,7 +262,7 @@ RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 SITE:STRING=karol-Yoga-7-2-in-1-14IML9
 
 //Path to a library.
-_lib:FILEPATH=/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a file.
 _numpy_h:FILEPATH=/usr/include/python3.10/numpy/numpyconfig.h
@@ -348,9 +348,6 @@ ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/share/ament_cmake_xmllint/cmake
 //Path to a program.
 ament_cppcheck_BIN:FILEPATH=/opt/ros/humble/bin/ament_cppcheck
 
-//Path to a program.
-ament_flake8_BIN:FILEPATH=/opt/ros/humble/bin/ament_flake8
-
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
 
@@ -362,9 +359,6 @@ ament_lint_cmake_BIN:FILEPATH=/opt/ros/humble/bin/ament_lint_cmake
 
 //The directory containing a CMake configuration file for ament_lint_common.
 ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
-
-//Path to a program.
-ament_pep257_BIN:FILEPATH=/opt/ros/humble/bin/ament_pep257
 
 //Path to a program.
 ament_uncrustify_BIN:FILEPATH=/opt/ros/humble/bin/ament_uncrustify
@@ -513,14 +507,11 @@ tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
 //Value Computed by CMake
 tutorial_interfaces_BINARY_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces
 
-//The directory containing a CMake configuration file for tutorial_interfaces.
-tutorial_interfaces_DIR:PATH=/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake
-
 //Value Computed by CMake
 tutorial_interfaces_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-tutorial_interfaces_SOURCE_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces
+tutorial_interfaces_SOURCE_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces
 
 //Dependencies for the target
 tutorial_interfaces__rosidl_generator_c_LIB_DEPENDS:STATIC=general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -650,7 +641,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

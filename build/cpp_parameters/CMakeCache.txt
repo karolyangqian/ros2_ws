@@ -350,7 +350,7 @@ cpp_parameters_BINARY_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_para
 cpp_parameters_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-cpp_parameters_SOURCE_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters
+cpp_parameters_SOURCE_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
@@ -570,7 +570,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

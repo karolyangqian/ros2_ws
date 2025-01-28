@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces
+CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces
@@ -241,6 +241,6 @@ CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/depend: r
 CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c
 CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
 CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
-	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

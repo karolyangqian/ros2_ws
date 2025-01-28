@@ -1,1 +1,1 @@
-/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation/launch/lumina_world.launch.py
+/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation/launch/lumina_world.launch.py

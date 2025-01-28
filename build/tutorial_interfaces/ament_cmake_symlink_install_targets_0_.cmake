@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/talker" "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/listener" "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/server" "/home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/client" "TARGETS" "talker" "listener" "server" "client" "DESTINATION" "lib/tutorial_interfaces")
+ament_cmake_symlink_install_targets("TARGET_FILES" "" "TARGETS" "DESTINATION" "lib/tutorial_interfaces")

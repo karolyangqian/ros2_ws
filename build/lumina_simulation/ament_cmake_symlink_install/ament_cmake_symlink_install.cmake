@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "launch" "models" "urdf" "worlds" "DESTINATION" "share/lumina_simulation")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" DIRECTORY "launch" "models" "urdf" "worlds" "DESTINATION" "share/lumina_simulation")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" DIRECTORY "launch" "models" "urdf" "worlds" "DESTINATION" "share/lumina_simulation")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/lumina_simulation/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/lumina_simulation/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/lumina_simulation/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/lumina_simulation/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/lumina_simulation/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/lumina_simulation/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/lumina_simulation/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/lumina_simulation/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/lumina_simulation/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/lumina_simulation/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/lumina_simulation/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/lumina_simulation/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/lumina_simulation")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/lumina_simulation")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/lumina_simulation")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/lumina_simulation")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/lumina_simulation")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/lumina_simulation")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/lumina_simulation")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/lumina_simulation")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/lumina_simulation")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/lumina_simulation")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/lumina_simulation")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/lumina_simulation")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/lumina_simulation")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/lumina_simulation")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/lumina_simulation")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/packages/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/packages/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_index/share/ament_index/resource_index/packages/lumina_simulation" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_core/lumina_simulationConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_core/lumina_simulationConfig-version.cmake" "DESTINATION" "share/lumina_simulation/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_core/lumina_simulationConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_core/lumina_simulationConfig-version.cmake" "DESTINATION" "share/lumina_simulation/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_core/lumina_simulationConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/ament_cmake_core/lumina_simulationConfig-version.cmake" "DESTINATION" "share/lumina_simulation/cmake")
 
-# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation/package.xml" "DESTINATION" "share/lumina_simulation")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation/package.xml" "DESTINATION" "share/lumina_simulation")
+# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation/package.xml" "DESTINATION" "share/lumina_simulation")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation/package.xml" "DESTINATION" "share/lumina_simulation")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation
+# Install script for directory: /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

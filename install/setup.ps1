@@ -23,7 +23,6 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/karol/ITB/URO/KRAI/nebula/nebula-ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/karol/ITB/URO/KRAI/ros2_learn/urdf_example/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/karol/turtlebot3_ws/install\local_setup.ps1"

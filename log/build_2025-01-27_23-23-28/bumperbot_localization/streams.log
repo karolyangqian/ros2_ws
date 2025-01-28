@@ -1,0 +1,22 @@
+[0.399s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/bumperbot/bumperbot_localization': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_localization build --build-base /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build install --record /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/install.log --single-version-externally-managed install_data
+[0.576s] running egg_info
+[0.577s] writing ../../../build/bumperbot_localization/bumperbot_localization.egg-info/PKG-INFO
+[0.577s] writing dependency_links to ../../../build/bumperbot_localization/bumperbot_localization.egg-info/dependency_links.txt
+[0.577s] writing entry points to ../../../build/bumperbot_localization/bumperbot_localization.egg-info/entry_points.txt
+[0.577s] writing requirements to ../../../build/bumperbot_localization/bumperbot_localization.egg-info/requires.txt
+[0.578s] writing top-level names to ../../../build/bumperbot_localization/bumperbot_localization.egg-info/top_level.txt
+[0.578s] reading manifest file '../../../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+[0.578s] adding license file 'LICENSE'
+[0.579s] writing manifest file '../../../build/bumperbot_localization/bumperbot_localization.egg-info/SOURCES.txt'
+[0.579s] running build
+[0.579s] running build_py
+[0.579s] running install
+[0.580s] running install_lib
+[0.580s] running install_data
+[0.580s] running install_egg_info
+[0.581s] removing '/home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages/bumperbot_localization-0.0.0-py3.10.egg-info' (and everything under it)
+[0.581s] Copying ../../../build/bumperbot_localization/bumperbot_localization.egg-info to /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[0.581s] running install_scripts
+[0.593s] Installing odometry_motion_model script to /home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/bumperbot_localization
+[0.594s] writing list of installed files to '/home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/install.log'
+[0.609s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/bumperbot/bumperbot_localization' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/bumperbot_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_localization build --build-base /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/build install --record /home/karol/ITB/URO/KRAI/ros2_ws/build/bumperbot_localization/install.log --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[0.972s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build
+[1.174s] running develop
+[1.289s] Removing /home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch-tutorial.egg-link (link to .)
+[1.321s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build
+[1.322s] Invoking command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/launch_tutorial': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_tutorial build --build-base /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build install --record /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data --force
+[1.518s] running egg_info
+[1.518s] writing ../../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.518s] writing dependency_links to ../../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.518s] writing entry points to ../../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[1.518s] writing requirements to ../../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.518s] writing top-level names to ../../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[1.518s] reading manifest file '../../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.519s] adding license file 'LICENSE'
+[1.519s] writing manifest file '../../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.519s] running build
+[1.519s] running build_py
+[1.519s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build
+[1.519s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build/lib
+[1.519s] creating /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[1.519s] copying launch_tutorial/__init__.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[1.519s] running install
+[1.519s] running install_lib
+[1.519s] creating /home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[1.519s] copying /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[1.519s] byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[1.520s] running install_data
+[1.520s] copying resource/launch_tutorial -> /home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.520s] copying package.xml -> /home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial
+[1.520s] copying launch/example_event_handlers.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[1.520s] running install_egg_info
+[1.521s] Copying ../../../build/launch_tutorial/launch_tutorial.egg-info to /home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[1.522s] running install_scripts
+[1.536s] writing list of installed files to '/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/install.log'
+[1.556s] Invoked command in '/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/launch_tutorial' returned '0': PYTHONPATH=/home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karol/ITB/URO/KRAI/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_tutorial build --build-base /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/build install --record /home/karol/ITB/URO/KRAI/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data --force

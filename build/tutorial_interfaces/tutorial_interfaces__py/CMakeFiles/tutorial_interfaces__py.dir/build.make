@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces
+CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces
@@ -211,6 +211,6 @@ tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/clean:
 .PHONY : tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/clean
 
 tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/depend:
-	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/tutorial_interfaces__py /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/tutorial_interfaces__py /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/tutorial_interfaces__py /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/tutorial_interfaces__py /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces/tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/depend
 

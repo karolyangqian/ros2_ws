@@ -1,0 +1,1 @@
+/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/urdf_tutorial/launch/gazebo.launch.py

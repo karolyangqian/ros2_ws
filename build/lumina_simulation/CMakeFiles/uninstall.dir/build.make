@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation
+CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation /home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation /home/karol/ITB/URO/KRAI/ros2_ws/build/lumina_simulation/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/tutorial_interfaces
+CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/build/tutorial_interfaces

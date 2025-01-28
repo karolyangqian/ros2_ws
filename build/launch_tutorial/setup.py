@@ -1,1 +1,0 @@
-/home/karol/ITB/URO/KRAI/ros2_ws/src/launch_tutorial/setup.py

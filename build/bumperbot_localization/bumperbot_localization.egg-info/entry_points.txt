@@ -1,0 +1,3 @@
+[console_scripts]
+odometry_motion_model = bumperbot_localization.odometry_motion_model:main
+

@@ -323,46 +323,46 @@ include("/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake
 include("/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/action_tutorials_cpp/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/action_tutorials_cpp/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/action_tutorials_cpp/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/action_tutorials_cpp/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/action_tutorials_cpp/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/action_tutorials_cpp/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/action_tutorials_cpp/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/action_tutorials_cpp/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/action_tutorials_cpp/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/action_tutorials_cpp/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/action_tutorials_cpp/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/action_tutorials_cpp/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/action_tutorials_cpp")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/action_tutorials_cpp")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/action_tutorials_cpp")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/action_tutorials_cpp")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/action_tutorials_cpp")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/action_tutorials_cpp")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/action_tutorials_cpp")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/action_tutorials_cpp")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/action_tutorials_cpp")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/action_tutorials_cpp")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/action_tutorials_cpp")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/action_tutorials_cpp")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/action_tutorials_cpp")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/action_tutorials_cpp")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/action_tutorials_cpp")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/packages/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/packages/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/packages/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_core/action_tutorials_cppConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_core/action_tutorials_cppConfig-version.cmake" "DESTINATION" "share/action_tutorials_cpp/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_core/action_tutorials_cppConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_core/action_tutorials_cppConfig-version.cmake" "DESTINATION" "share/action_tutorials_cpp/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_core/action_tutorials_cppConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/action_tutorials_cpp/ament_cmake_core/action_tutorials_cppConfig-version.cmake" "DESTINATION" "share/action_tutorials_cpp/cmake")
 
-# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp/package.xml" "DESTINATION" "share/action_tutorials_cpp")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/action_tutorials_cpp/package.xml" "DESTINATION" "share/action_tutorials_cpp")
+# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp/package.xml" "DESTINATION" "share/action_tutorials_cpp")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/action_tutorials_cpp/package.xml" "DESTINATION" "share/action_tutorials_cpp")

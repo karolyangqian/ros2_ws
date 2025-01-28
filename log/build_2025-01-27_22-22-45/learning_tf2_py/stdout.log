@@ -1,0 +1,53 @@
+running develop
+Removing /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning-tf2-py.egg-link (link to .)
+running egg_info
+writing ../../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+writing requirements to ../../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+writing top-level names to ../../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+reading manifest file '../../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build
+creating /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib
+creating /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+copying learning_tf2_py/turtle_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+copying learning_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+copying learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+copying learning_tf2_py/turtle_tf2_listener.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+copying learning_tf2_py/__init__.py -> /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+running install
+running install_lib
+creating /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_listener.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+copying /home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-310.pyc
+byte-compiling /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/learning_tf2_py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py
+copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+copying launch/static_transform_publisher.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+copying launch/turtle_tf2_demo.launch.py -> /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+running install_egg_info
+Copying ../../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dynamic_frame_tf2_broadcaster script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+Installing fixed_frame_tf2_broadcaster script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+Installing static_turtle_tf2_broadcaster script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+Installing turtle_tf2_broadcaster script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+Installing turtle_tf2_listener script to /home/karol/ITB/URO/KRAI/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+writing list of installed files to '/home/karol/ITB/URO/KRAI/ros2_ws/build/learning_tf2_py/install.log'

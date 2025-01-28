@@ -329,7 +329,7 @@ lumina_simulation_BINARY_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/build/lumin
 lumina_simulation_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-lumina_simulation_SOURCE_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation
+lumina_simulation_SOURCE_DIR:STATIC=/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -419,7 +419,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/karol/ITB/URO/KRAI/ros2_ws/src/simulation_testing/lumina_simulation
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/simulation_testing/lumina_simulation
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

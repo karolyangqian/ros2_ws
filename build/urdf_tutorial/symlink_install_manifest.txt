@@ -5,6 +5,7 @@
 /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images/origins.png
 /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/images/visual.png
 /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch.py
+/home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/launch/gazebo.launch.py
 /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger.dae
 /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_color.png
 /home/karol/ITB/URO/KRAI/ros2_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip.dae

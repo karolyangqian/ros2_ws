@@ -1,7 +1,3 @@
-/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib/tutorial_interfaces/talker
-/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib/tutorial_interfaces/listener
-/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib/tutorial_interfaces/server
-/home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/lib/tutorial_interfaces/client
 /home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
 /home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
 /home/karol/ITB/URO/KRAI/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h

@@ -314,46 +314,46 @@ message(STATUS "Execute custom install script")
 include("/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "params" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" DIRECTORY "launch" "params" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_directory("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" DIRECTORY "launch" "params" "DESTINATION" "share/cpp_parameters")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/cpp_parameters/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/cpp_parameters/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/cpp_parameters/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/cpp_parameters/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/cpp_parameters/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/cpp_parameters/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/cpp_parameters/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/cpp_parameters/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/cpp_parameters/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/cpp_parameters/environment")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/cpp_parameters/environment")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/cpp_parameters/environment")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/cpp_parameters")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/cpp_parameters")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/cpp_parameters")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/cpp_parameters")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/cpp_parameters")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/packages/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/packages/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_index/share/ament_index/resource_index/packages/cpp_parameters" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig-version.cmake" "DESTINATION" "share/cpp_parameters/cmake")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig-version.cmake" "DESTINATION" "share/cpp_parameters/cmake")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig.cmake" "/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/ament_cmake_core/cpp_parametersConfig-version.cmake" "DESTINATION" "share/cpp_parameters/cmake")
 
-# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters/package.xml" "DESTINATION" "share/cpp_parameters")
-ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters/package.xml" "DESTINATION" "share/cpp_parameters")
+# install(FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters/package.xml" "DESTINATION" "share/cpp_parameters")
+ament_cmake_symlink_install_files("/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters" FILES "/home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters/package.xml" "DESTINATION" "share/cpp_parameters")

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters
+CMAKE_SOURCE_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters
@@ -70,18 +70,18 @@ include CMakeFiles/minimal_param_node.dir/progress.make
 include CMakeFiles/minimal_param_node.dir/flags.make
 
 CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o: CMakeFiles/minimal_param_node.dir/flags.make
-CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o: /home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters/src/node_with_param.cpp
+CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o: /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters/src/node_with_param.cpp
 CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o: CMakeFiles/minimal_param_node.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o -MF CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o.d -o CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o -c /home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters/src/node_with_param.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o -MF CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o.d -o CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.o -c /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters/src/node_with_param.cpp
 
 CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters/src/node_with_param.cpp > CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters/src/node_with_param.cpp > CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.i
 
 CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters/src/node_with_param.cpp -o CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters/src/node_with_param.cpp -o CMakeFiles/minimal_param_node.dir/src/node_with_param.cpp.s
 
 # Object files for target minimal_param_node
 minimal_param_node_OBJECTS = \
@@ -159,6 +159,6 @@ CMakeFiles/minimal_param_node.dir/clean:
 .PHONY : CMakeFiles/minimal_param_node.dir/clean
 
 CMakeFiles/minimal_param_node.dir/depend:
-	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters /home/karol/ITB/URO/KRAI/ros2_ws/src/cpp_parameters /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/CMakeFiles/minimal_param_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters /home/karol/ITB/URO/KRAI/ros2_ws/src/ros2_tutorial/cpp_parameters /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters /home/karol/ITB/URO/KRAI/ros2_ws/build/cpp_parameters/CMakeFiles/minimal_param_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/minimal_param_node.dir/depend
 
